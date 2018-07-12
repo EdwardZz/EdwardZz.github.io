@@ -16,8 +16,8 @@
 
 <script>
     (function(){
-        if('pass'){
-            if (prompt('请输入文章密码') !== 'pass'){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
                 alert('密码错误！');
                 history.back();
             }
@@ -77,7 +77,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="opencv," />
 
 
 
@@ -88,17 +88,18 @@
 
 
 
-<meta name="description" content="今天第一次建立自己的博客">
+<meta name="description" content="opencv笔记（一）一、安装123pip install opencv-pythonpip install opencv-contrib-pythonpip install pytesseract 二、图片与视频的加载与保存 图片的加载 12import cv2 as cvimage = cv.imread(&amp;quot;the image path&amp;quot;)  图片的保存 12cv.imwr">
+<meta name="keywords" content="opencv">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的博客">
-<meta property="og:url" content="http://yoursite.com/2018/03/30/我的博客/index.html">
+<meta property="og:title" content="opencv笔记(1)">
+<meta property="og:url" content="http://yoursite.com/2018/07/12/opencv笔记-1/index.html">
 <meta property="og:site_name" content="Edward">
-<meta property="og:description" content="今天第一次建立自己的博客">
+<meta property="og:description" content="opencv笔记（一）一、安装123pip install opencv-pythonpip install opencv-contrib-pythonpip install pytesseract 二、图片与视频的加载与保存 图片的加载 12import cv2 as cvimage = cv.imread(&amp;quot;the image path&amp;quot;)  图片的保存 12cv.imwr">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-31T14:42:25.186Z">
+<meta property="og:updated_time" content="2018-07-12T14:46:00.246Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的博客">
-<meta name="twitter:description" content="今天第一次建立自己的博客">
+<meta name="twitter:title" content="opencv笔记(1)">
+<meta name="twitter:description" content="opencv笔记（一）一、安装123pip install opencv-pythonpip install opencv-contrib-pythonpip install pytesseract 二、图片与视频的加载与保存 图片的加载 12import cv2 as cvimage = cv.imread(&amp;quot;the image path&amp;quot;)  图片的保存 12cv.imwr">
 
 
 
@@ -128,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/03/30/我的博客/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/07/12/opencv笔记-1/"/>
 
 
 
 
 
-  <title>我的博客 | Edward</title>
+  <title>opencv笔记(1) | Edward</title>
   
 
 
@@ -273,7 +274,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/30/我的博客/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/12/opencv笔记-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhuyongjie">
@@ -290,7 +291,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">我的博客</h1>
+          <h1 class="post-title" itemprop="name headline">opencv笔记(1)</h1>
         
 
         <div class="post-meta">
@@ -302,8 +303,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-30T21:41:10+08:00">
-                2018-03-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-12T21:28:00+08:00">
+                2018-07-12
               </time>
             
 
@@ -312,6 +313,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/opencv笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">opencv笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -334,7 +357,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  12
+                  298
                 </span>
               words
 
@@ -371,7 +394,33 @@
       
 
       
-        <h1 id="今天第一次建立自己的博客"><a href="#今天第一次建立自己的博客" class="headerlink" title="今天第一次建立自己的博客"></a>今天第一次建立自己的博客</h1>
+        <h1 id="opencv笔记（一）"><a href="#opencv笔记（一）" class="headerlink" title="opencv笔记（一）"></a>opencv笔记（一）</h1><h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pip install opencv-python</span><br><span class="line">pip install opencv-contrib-python</span><br><span class="line">pip install pytesseract</span><br></pre></td></tr></table></figure>
+<h2 id="二、图片与视频的加载与保存"><a href="#二、图片与视频的加载与保存" class="headerlink" title="二、图片与视频的加载与保存"></a>二、图片与视频的加载与保存</h2><ul>
+<li><p>图片的加载</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import cv2 as cv</span><br><span class="line">image = cv.imread(&quot;the image path&quot;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>图片的保存</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cv.imwrite(&quot;path to save&quot;,image)</span><br><span class="line">#此处需要注意路径中需要包含图片的具体格式，例如D:\image.png</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>视频的加载  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">def video_demo():</span><br><span class="line">      capture = cv.VideoCapture(&quot;video path or 0&quot;)</span><br><span class="line">      #参数0表示调用本机摄像头</span><br><span class="line">      while(True):</span><br><span class="line">           ret,frame = capture.read()</span><br><span class="line">           frame = cv.flip(frame,1)   #将图片镜像处理</span><br><span class="line">           cv.imshow(&quot;video image&quot;,frame)</span><br><span class="line">           c = cv.waitKey(50)</span><br><span class="line">           if c == 27:</span><br><span class="line">               break</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="三、-图片格式及色度变换"><a href="#三、-图片格式及色度变换" class="headerlink" title="三、 图片格式及色度变换"></a>三、 图片格式及色度变换</h2><ul>
+<li><p>图片色度变换</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gray = cv.cvtColor(image,cv.COLOR_BGR2GRAY) #将BGR图片转换为灰度图片</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>图片格式<br>一般图片都有B G R三个颜色通道，可以通过如下代码查看图片的格式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def get_image_info(image):</span><br><span class="line">      print(type(image))</span><br><span class="line">      print(image.shape)</span><br><span class="line">      print(image.size)</span><br><span class="line">      print(image.dtype)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行时间计算</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">t1 = cv.getTickCount()</span><br><span class="line">---------code---------</span><br><span class="line">t2 = cv.getTickCount()</span><br><span class="line">time = (t2-t1)/cv.getTickFrequency()</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建一张图片</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">def create_image():</span><br><span class="line">       img = np.zeros([400,400,3],np.uint8)</span><br><span class="line">       img[:,:,0] = np.ones([400,400])*255</span><br><span class="line">       cv.show(&quot;created image&quot;,img)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
       
     </div>
     
@@ -415,6 +464,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/opencv/" rel="tag"><i class="fa fa-tag"></i> opencv</a>
+          
+        </div>
+      
 
       
       
@@ -424,15 +479,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/03/31/记一次春游/" rel="next" title="记一次春游">
+                <i class="fa fa-chevron-left"></i> 记一次春游
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/31/记一次春游/" rel="prev" title="记一次春游">
-                记一次春游 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -584,7 +639,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#今天第一次建立自己的博客"><span class="nav-number">1.</span> <span class="nav-text">今天第一次建立自己的博客</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#opencv笔记（一）"><span class="nav-number">1.</span> <span class="nav-text">opencv笔记（一）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、安装"><span class="nav-number">1.1.</span> <span class="nav-text">一、安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、图片与视频的加载与保存"><span class="nav-number">1.2.</span> <span class="nav-text">二、图片与视频的加载与保存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、-图片格式及色度变换"><span class="nav-number">1.3.</span> <span class="nav-text">三、 图片格式及色度变换</span></a></li></ol></li></ol></div>
             
 
           </div>
